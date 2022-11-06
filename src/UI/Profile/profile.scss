@@ -1,0 +1,93 @@
+.profile {
+  width: 360px;
+//   background-color: lime;
+  position: relative;
+  left: 129px;
+  display: flex;
+  flex-direction: column;
+  top: -18px;
+
+  &__circle {
+    width: 319px;
+    height: 319px;
+    border: 1px solid rgb(119, 112, 112);
+    position: relative;
+    left: 20px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+
+    &__image{
+      width: 318px;
+      height: 318px;
+      border-radius:50%    ;
+      -webkit-border-radius:50%    ;
+      -moz-border-radius:50%    ;
+      -ms-border-radius:50%    ;
+      -o-border-radius:50%    ;
+}
+  }
+
+  &__title {
+    width: 190px;
+    font-size: 27px;
+    position: relative;
+    left: 19px;
+    top: 19px;
+  }
+
+  &__text {
+    width: 120px;
+    font-size: 22px;
+    font-weight: 500;
+    position: relative;
+    top: 19px;
+    left: 19px;
+  }
+
+  &__text__second {
+    margin-left: 46px;
+    margin-top: 39px;
+    width: 80px;
+    font-size: 18px;
+    text-decoration: none;
+      color:black;
+  }
+
+  &__text__third {
+   margin-left:136px;
+    margin-top: -20px;
+    width: 90px;
+   font-size: 18px;
+   text-decoration: none;
+      color:black;
+  }
+
+  &__button {
+    width: 319px;
+    padding: 9px;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: rgb(238, 238, 238);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    position: relative;
+    top: 29px;
+    left: 19px;
+
+    &:hover {
+      background-color: rgb(236, 228, 228);
+      box-shadow: 0px 0px 0px 2px rgb(193, 170, 170);
+      transition: all 1s ease;
+      -webkit-transition: all 1s ease;
+      -moz-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+      -o-transition: all 1s ease;
+    }
+  }
+}
